@@ -1,0 +1,290 @@
+body {
+    font-family: "Lato", sans-serif;
+    overflow-y: hidden;  
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
+  
+  #button {
+    background-color: #ddd;
+    font-size: 20px;
+    font-family: majorant;
+    border: none;
+    color: black;
+    padding: 5px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+  }
+  
+  #button:hover {
+    background-color: #000;
+  }
+  
+  @font-face {
+    font-family: polaris;
+    src: url("./fonts/Polaris.otf");
+    
+  }
+  @font-face {
+    font-family: majorant;
+    src: url("./fonts/Majorant-Bd.woff");
+    
+  }
+  @font-face {
+    font-family: banschrift;
+    src: url("./fonts/BAHNSCHRIFT\ 1.TTF");
+    
+  }
+  
+  @font-face {
+    font-family: avenir;
+    src: url("./fonts/AvenirLTStd-Book.otf");
+    
+  }
+  body{
+      background-image: url("./images/qw.png");
+      overflow-y: hidden; 
+    overflow-x: hidden; 
+    }
+    #ar:after {
+      content: ' \25B6 \25B6 \25B6';
+  }
+  #ar{
+    color: #fff;
+  }
+  #spn
+  {
+    font-size:30px;cursor:pointer;float:right;margin-right: 50px;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    width: 50px;
+    text-align: center;
+  }
+  #d1
+  {
+    margin-top: 60px;
+  }
+  #h
+  {
+    font-size: 85px;
+    color:rgb(9, 9, 72);
+  }
+  #hr1
+  {
+    margin-top:450px; margin-left: 70px;
+  }
+  #hr2{
+    font-size: 35px;
+    margin-left: 70px;
+    text-align: center;
+  }
+  #hr3{
+    font-size: 20px;
+    margin-left: 90px;
+  }
+  #para_text{
+    width: 450px;
+    border-color: #818181;opacity:0.5;border-radius: 10px;padding: 5px;background-color: #e2e2e2;color:rgb(9, 9, 72);margin-top: 5px;font-family:banschrift;
+  }
+  
+  @media screen and (max-width: 480px) {
+    body{
+      background-image: url("./images/mobile-bg.png");
+    }
+   #h
+   {
+    font-size: 35px;
+    color: #fff;
+   }
+   #hr1
+   {
+    margin-left: 30px;
+    margin-top:500px;
+   }
+   #spn{
+    margin-right: 15px;
+   }
+   #d1
+   {
+     margin-top: 5px;
+   }
+   #hr2{
+    font-size: 18px;
+    margin-left:20px;
+    text-align: center;
+  }
+  #para_text{
+    width: 230px;
+    
+  }
+  #hr3
+  {
+    font-size: 20px;
+    margin-left: 50px;
+    
+  }
+  
+  }
+
+      #div1
+      {
+          margin-top: 250px;
+          color: #fff;
+          margin-left: 80px;
+          font-family: avenirdd;
+          
+      }
+      #div2
+      {
+          color: #fff;
+          font-family: avenirdd;
+          text-align: left;
+          padding: 20px
+         
+      }
+      #col1{
+          background-color: rgb(165, 131, 116);
+          opacity: 0.8;
+          border-bottom-right-radius: 35px;
+          border-top-right-radius: 35px;
+      }
+      #ht
+      {
+          font-size: 75px
+         
+      }
+      @font-face {
+    font-family: avenirdd;
+    src: url("fonts/26301410506.ttf");
+  }
+ 
+  @media screen and (max-width: 480px) {
+      #col1{
+          background-color: rgb(165, 131, 116);
+          opacity: 0.8;
+          border-bottom-right-radius: 0px;
+          border-top-right-radius: 0px;
+      }
+      #div1
+      {
+          margin-top: 50px;
+          color: #fff;
+          margin-left: 80px;
+          font-family: avenirdd;
+          
+      }
+      #spn{
+    margin-right: 5px;
+   }
+   #tog{
+      display:block;
+      visibility: visible;
+  }
+  
+  }
+  
+  
+  #pt{
+      font-size: 24px;
+  }
+    
+  #tog{
+      display:none;
+      visibility: hidden;
+  }
+           
+          #hd1
+          {
+              font-size: 71px;
+          }
+          #r1{
+              padding:50px ;margin-top: 200px;
+          }
+  
+  @media screen and (max-width: 480px) {
+              #hd1
+          {
+              font-size: 40px;
+          }
+          #r1{
+              padding:50px ;margin-top: 10px;
+          }
+          #spn{
+              margin-right: 5px;
+          }
+        #tog{
+            display:block;
+            visibility: visible;
+        }
+        #pt{
+            font-size: 18px;
+        }
+    }
+  
+  #hd1{
+     font-size: 71px;
+     }
+  #r1{
+      padding:50px ;margin-top: 200px;
+   }
+          
+@media screen and (max-width: 480px) 
+{
+    #hd1{
+        font-size: 40px;
+      }
+    #r1{
+          padding:50px ;margin-top: 10px;
+       }
+    #spn{
+         margin-right: 5px;
+         }
+    #tog{
+          display:block;
+         visibility: visible;
+        }
+    #pt{
+        font-size: 18px;
+          }
+ }
